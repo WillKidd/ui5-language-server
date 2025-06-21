@@ -1,0 +1,30 @@
+{
+  "name": "ui5-language-server",
+  "version": "1.0.0",
+  "description": "Language Server Implementation for SAPUI5 and OPENUI5, compatible with LSP Clients like Neovim or VSC",
+  "main": "dist/index.js",
+  "bin": {
+    "sapui5-ls": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "language",
+    "server",
+    "sapui5",
+    "openui5",
+    "ui5",
+    "lsp"
+  ],
+  "author": "Jan Zimmermann",
+  "license": "MIT",
+  "dependencies": {
+    "vscode-languageserver": "^9.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
