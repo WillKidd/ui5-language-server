@@ -4,9 +4,7 @@ Language Server Protocol implementation for SAPUI5/OpenUI5 development.
 Designed for use with Neovim, VS Code, and other LSP-compatible editors.
 
 ## Features
-- [ ] Auto-completion for UI5 controls
-- [ ] Hover tooltips
-- [ ] Diagnostics
+
 
 ## Install
 
